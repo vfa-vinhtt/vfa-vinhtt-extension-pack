@@ -1,17 +1,27 @@
 {
     "name": "vfa-vintt-extension-pack",
-    "displayName": "vfa_vintt_extension_pack",
+    "displayName": "VFA VinhTT Extension Pack",
     "publisher":"vfa-vinhtt",
+    "author": "VinhTT",
     "description": "",
     "version": "0.0.1",
+    "license": "MIT",
     "engines": {
-        "vscode": "^1.33.0"
+        "vscode": "^1.33.1"
     },
+    "icon": "code.png",
     "categories": [
         "Extension Packs"
     ],
     "extensionPack": [ 
         "dbaeumer.vscode-eslint", 
         "esbenp.prettier-vscode"
-    ]
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vfa-vinhtt/vfa-vinhtt-extension-pack"
+    },
+    "scripts": {
+        "deploy": "vsce package"
+    }
 }
