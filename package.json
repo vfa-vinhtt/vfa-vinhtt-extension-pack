@@ -1,0 +1,17 @@
+{
+    "name": "vfa-vintt-extension-pack",
+    "displayName": "vfa_vintt_extension_pack",
+    "publisher":"vfa-vinhtt",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "dbaeumer.vscode-eslint", 
+        "esbenp.prettier-vscode"
+    ]
+}
